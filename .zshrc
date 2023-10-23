@@ -9,7 +9,7 @@ fi
 # If you come from bash you might have to change your $PATH.
 
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-DEFAULT_USER=kinoute
+#DEFAULT_USER=
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -111,8 +111,8 @@ plugins=(git
     macos
     kubectl
     sublime
-    docker
-    docker-compose
+    #docker
+    #docker-compose
     fzf
     fzf-tab
     zsh-autosuggestions
