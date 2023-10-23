@@ -1,0 +1,18 @@
+[
+    {
+        "keys": [
+            "ctrl+alt+a"
+        ],
+        "command": "alignment"
+    },
+    {
+        "keys": [
+            "super+h"
+        ],
+        "command": "show_panel",
+        "args": {
+            "panel": "replace",
+            "reverse": false
+        }
+    },
+]
