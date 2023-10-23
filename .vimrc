@@ -12,7 +12,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'Yggdroot/indentLine'
 " Plugin 'file:////Users/kinoute/Sites/vim-hivacruz-theme'
-Plugin 'kinoute/vim-hivacruz-theme'
+#Plugin 'kinoute/vim-hivacruz-theme'
 " Plugin 'vim-airline/vim-airline'
 " Plugin 'vim-airline/vim-airline-themes'
 
