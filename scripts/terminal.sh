@@ -22,9 +22,6 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zs
 # Install PowerLevel10k theme
 #git clone https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/themes/powerlevel10k
 
-# Install Dracula theme
-git clone https://github.com/dracula/terminal-app.git
-
 # Make terminal faster
 touch ~/.hushlogin
 
@@ -74,7 +71,7 @@ bat cache --build
 cp -f ../.lessfilter ~/
 
 # Misc rc files
-cp -f ../.condarc ~/
+#cp -f ../.condarc ~/
 cp -f ../.gemrc ~/
 cp -f ../.screenrc ~/
 cp -f ../.wgetrc ~/
