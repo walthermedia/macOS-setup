@@ -38,9 +38,9 @@ git clone https://github.com/dracula/terminal-app.git
 touch ~/.hushlogin
 
 # copy dotfiles and zshrc
-cp ./dotfiles/* ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}
-cp -f .zshrc ~/
-cp -f .p10k.zsh ~/
+cp ../dotfiles/* ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}
+cp -f ../.zshrc ~/
+cp -f ../.p10k.zsh ~/
 
 ###############################################################################
 # Vim                                                                         #
@@ -50,7 +50,7 @@ cp -f .p10k.zsh ~/
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Copy my setup
-cp -f .vimrc ~/
+cp -f ../.vimrc ~/
 
 # Install plugins
 vim +PluginInstall +qall
@@ -63,28 +63,28 @@ vim +PluginInstall +qall
 defaults write com.apple.terminal StringEncodings -array 4
 
 # Copy iterm Settings
-sudo cp -f ./iterm/com.googlecode.iterm2.plist ~/Library/Preferences/
+sudo cp -f ../iterm/com.googlecode.iterm2.plist ~/Library/Preferences/
 
 # Install Hivacruz theme for iTerm
-open -a iTerm ./iterm/Hivacruz.itermcolors
+open -a iTerm ../iterm/Hivacruz.itermcolors
 
 # Install Dracula theme for iTerm
 open -a iTerm ../iterm/Dracula.itermcolors
 
 # Install k9s custom skin based on Nord theme
-cp -f ./iterm/k9s-skin.yml ~/Library/Application\ Support/k9s/skin.yml
+cp -f ../iterm/k9s-skin.yml ~/Library/Application\ Support/k9s/skin.yml
 
 # Install custom bat config and theme
 mkdir ~/.config || true
-cp -rf ./iterm/bat ~/.config || true
+cp -rf ../iterm/bat ~/.config || true
 bat cache --build
 
 # Install lessfilter for better preview
-cp -f .lessfilter ~/
+cp -f ../.lessfilter ~/
 
 # Misc rc files
-cp -f .condarc ~/
-cp -f .gemrc ~/
-cp -f .screenrc ~/
-cp -f .wgetrc ~/
-cp -f .tmux.conf ~/
+cp -f ../.condarc ~/
+cp -f ../.gemrc ~/
+cp -f ../.screenrc ~/
+cp -f ../.wgetrc ~/
+cp -f ../.tmux.conf ~/
