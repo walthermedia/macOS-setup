@@ -103,7 +103,7 @@ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 plugins=(git
     #conda-zsh-completion
     z
-    aws
+    #aws
     pip
     ripgrep
     fd
