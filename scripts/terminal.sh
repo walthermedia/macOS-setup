@@ -60,19 +60,19 @@ vim +PluginInstall +qall
 ###############################################################################
 
 # Only use UTF-8 in Terminal.app
-defaults write com.apple.terminal StringEncodings -array 4
+#defaults write com.apple.terminal StringEncodings -array 4
 
 # Copy iterm Settings
-sudo cp -f ../iterm/com.googlecode.iterm2.plist ~/Library/Preferences/
+#sudo cp -f ../iterm/com.googlecode.iterm2.plist ~/Library/Preferences/
 
 # Install Hivacruz theme for iTerm
-open -a iTerm ../iterm/Hivacruz.itermcolors
+#open -a iTerm ../iterm/Hivacruz.itermcolors
 
 # Install Dracula theme for iTerm
 open -a iTerm ../iterm/Dracula.itermcolors
 
 # Install k9s custom skin based on Nord theme
-cp -f ../iterm/k9s-skin.yml ~/Library/Application\ Support/k9s/skin.yml
+#cp -f ../iterm/k9s-skin.yml ~/Library/Application\ Support/k9s/skin.yml
 
 # Install custom bat config and theme
 mkdir ~/.config || true
