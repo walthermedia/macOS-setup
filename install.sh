@@ -15,18 +15,18 @@ while true; do
 done 2> /dev/null &
 
 echo "Installing brew packages first..."
-bash /scripts/brew.sh
+bash ./scripts/brew.sh
 
 echo "Setting up macOS just like we like..."
-bash /scripts/macos.sh
+bash ./scripts/macos.sh
 
 echo "Setting up Git.."
-bash /scripts/git.sh
+bash ./scripts/git.sh
 
 echo "Setting up SSH Key.."
-bash /scripts/ssh.sh
+bash ./scripts/ssh.sh
 
 echo "Setting up Terminal, ZSH and iTerm2.."
-bash /scripts/terminal.sh
+bash ./scripts/terminal.sh
 
 echo "DONE!"
