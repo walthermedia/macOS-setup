@@ -88,13 +88,13 @@ brew install ag
 brew install xsv
 brew install youtube-dl
 brew install hadolint
-brew install jupyter
+#brew install jupyter
 brew install svn
 brew install dive
-brew install nmap
+#brew install nmap
 brew install lesspipe
-brew install exiftool
-brew install k9s
+#brew install exiftool
+#brew install k9s
 brew install kubectl
 brew install kustomize
 brew install krew
@@ -102,7 +102,7 @@ brew install kubeseal
 brew install chafa
 brew install csvkit
 brew install tidy-viewer
-brew install dog
+#brew install dog
 brew install fluxcd/tap/flux
 brew install kubecolor/tap/kubecolor
 brew install eslint
@@ -118,41 +118,41 @@ kubectl krew install k8s/ice
 kubectl krew install k8s/kubescape
 
 # Core Casks
-brew install --cask spotify
+#brew install --cask spotify
 brew install --cask vlc
-brew install --cask the-unarchiver
+#brew install --cask the-unarchiver
 brew install --cask lulu
 brew install --cask onyx
-brew install --cask transmission
+#brew install --cask transmission
 brew install --cask slack
-brew install --cask ngrok
+#brew install --cask ngrok
 
 # Markdown editor
-brew install typora
+#brew install typora
 
 # Apps fom Mac App Store
-mas install '1440147259' # Adguard For Safari
+#mas install '1440147259' # Adguard For Safari
 
 # Remove mouse acceleration
-brew tap homebrew/cask-drivers
-brew install --cask steelseries-exactmouse-tool
+#brew tap homebrew/cask-drivers
+#brew install --cask steelseries-exactmouse-tool
 
 # Development tool casks
 brew install --cask iterm2
 brew install --cask sublime-text
-brew install --cask virtualbox
+#brew install --cask virtualbox
 brew install --cask brave-browser
-brew install --cask miniconda
+#brew install --cask miniconda
 brew install --cask visual-studio-code
 
 # Correct PHP code
-brew install php-cs-fixer
-brew install php-code-sniffer
-brew install phpcbf
-brew install phpmd
+#brew install php-cs-fixer
+#brew install php-code-sniffer
+#brew install phpcbf
+#brew install phpmd
 
 # Fix Ruby Code
-gem install rubocop
+#gem install rubocop
 
 # Fix Shell scripts
 brew install shellcheck
@@ -167,15 +167,15 @@ brew install golangci-lint
 brew install goreleaser
 
 # Install Docker, which requires virtualbox
-brew install --cask docker
-brew install docker-compose
-brew install lazydocker
+#brew install --cask docker
+#brew install docker-compose
+#brew install lazydocker
 
 # Fonts
 brew tap homebrew/cask-fonts
-brew install --cask font-roboto-mono-nerd-font
-brew install --cask font-roboto-mono-for-powerline
-brew install font-roboto
+#brew install --cask font-roboto-mono-nerd-font
+#brew install --cask font-roboto-mono-for-powerline
+#brew install font-roboto
 
 # Better quick look support
 brew install --cask qlcolorcode
@@ -190,7 +190,7 @@ brew install --cask quicklook-csv
 brew install --cask betterzip
 
 # sse jupyter notebooks from quicklook
-brew install --cask jupyter-notebook-viewer
+#brew install --cask jupyter-notebook-viewer
 
 # restart quick look
 qlmanage -r
