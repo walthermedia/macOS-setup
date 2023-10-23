@@ -8,7 +8,7 @@
 if [ ! -f ~/.gitconfig ]; then
 
   # Copy gitignore and gitconfig template files
-  sudo cp -r -f ./gitfiles/.git* ~/
+  sudo cp -r -f ../gitfiles/.git* ~/
 
   # Set-up name
   read -p "Enter your Full Name for Git: " name
@@ -22,4 +22,4 @@ fi
 
 # add gpg-agent config
 mkdir ~/.gnupg
-cp ./gpg-agent.conf ~/.gnupg/gpg-agent.conf
+cp ../gpg-agent.conf ~/.gnupg/gpg-agent.conf
