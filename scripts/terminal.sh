@@ -19,17 +19,8 @@ git clone https://github.com/marlonrichert/zsh-autocomplete ${ZSH_CUSTOM:-${ZSH:
 # completions
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
 
-# fzf tab completion
-git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
-
-# conda zsh completions
-git clone https://github.com/esc/conda-zsh-completion ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/conda-zsh-completion
-
-# auto update third party plugins
-git clone https://github.com/TamCore/autoupdate-oh-my-zsh-plugins $ZSH_CUSTOM/plugins/autoupdate
-
 # Install PowerLevel10k theme
-git clone https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/themes/powerlevel10k
+#git clone https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/themes/powerlevel10k
 
 # Install Dracula theme
 git clone https://github.com/dracula/terminal-app.git
@@ -40,20 +31,20 @@ touch ~/.hushlogin
 # copy dotfiles and zshrc
 cp ../dotfiles/* ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}
 cp -f ../.zshrc ~/
-cp -f ../.p10k.zsh ~/
+#cp -f ../.p10k.zsh ~/
 
 ###############################################################################
 # Vim                                                                         #
 ###############################################################################
 
 # install VIM Plugins Manager
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+#git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Copy my setup
-cp -f ../.vimrc ~/
+#cp -f ../.vimrc ~/
 
 # Install plugins
-vim +PluginInstall +qall
+#vim +PluginInstall +qall
 
 ###############################################################################
 # Terminal & iTerm 2                                                          #
