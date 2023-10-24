@@ -40,6 +40,10 @@ sudo cp -f ../iterm/com.googlecode.iterm2.plist ~/Library/Preferences/
 # Install Dracula theme for iTerm
 open -a iTerm ../iterm/Dracula.itermcolors
 
+# Set Terminal Default profile to Dracula
+defaults write com.apple.terminal 'Default Window Settings' Dracula
+defaults write com.apple.terminal 'Startup Window Settings' Dracula
+
 # Install custom bat config and theme
 mkdir ~/.config || true
 cp -rf ../iterm/bat ~/.config || true
