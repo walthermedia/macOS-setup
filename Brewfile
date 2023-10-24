@@ -52,17 +52,17 @@ cask "utm"
 cask "visual-studio-code"
 cask "vlc"
 cask "zoom"
-#mas "Bear", id: 1091189122
-#mas "Bitwarden", id: 1352778147
-#mas "Flighty", id: 1358823008
-#mas "Memory Diag", id: 748212890
-#mas "Pixelmator Pro", id: 1289583905
-#mas "Prime Video", id: 545519333
-#mas "Pure Paste", id: 1611378436
-#mas "Slack", id: 803453959
-#mas "Speediness", id: 1596706466
-#mas "Todoist", id: 585829637
-#mas "Xcode", id: 497799835
+mas "Bear", id: 1091189122
+mas "Bitwarden", id: 1352778147
+mas "Flighty", id: 1358823008
+mas "Memory Diag", id: 748212890
+mas "Pixelmator Pro", id: 1289583905
+mas "Prime Video", id: 545519333
+mas "Pure Paste", id: 1611378436
+mas "Slack", id: 803453959
+mas "Speediness", id: 1596706466
+mas "Todoist", id: 585829637
+mas "Xcode", id: 497799835
 vscode "moocfi.test-my-code"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
