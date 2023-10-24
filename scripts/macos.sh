@@ -78,9 +78,6 @@ sudo systemsetup -f -setremoteappleevents off
 # Disable remote login
 sudo systemsetup -f -setremotelogin off
 
-# Disable wake-on modem
-sudo systemsetup -f -setwakeonmodem off
-
 # Disable wake-on LAN
 sudo systemsetup -f -setwakeonnetworkaccess off
 
