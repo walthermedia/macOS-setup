@@ -1,6 +1,5 @@
 tap "dracula/install"
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
 
 cask "lulu"
 
@@ -21,7 +20,6 @@ brew "git-extras"
 brew "git-delta"
 brew "lazygit"
 brew "tidy-viewer"
-brew "font-roboto-mono-nerd-font"
 
 cask "appcleaner"
 cask "brave-browser"
