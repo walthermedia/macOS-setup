@@ -5,7 +5,7 @@
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-COMPUTER_NAME="Gotham"
+COMPUTER_NAME="Bizarro"
 sudo scutil --set ComputerName "${COMPUTER_NAME}"
 sudo scutil --set HostName "${COMPUTER_NAME}"
 sudo scutil --set LocalHostName "${COMPUTER_NAME}"
