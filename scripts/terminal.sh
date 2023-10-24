@@ -23,8 +23,8 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zs
 touch ~/.hushlogin
 
 # copy dotfiles and zshrc
-cp ./dotfiles/* ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}
-cp -f .zshrc ~/
+cp ../dotfiles/* ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}
+cp -f ../.zshrc ~/
 
 
 ###############################################################################
@@ -35,19 +35,19 @@ cp -f .zshrc ~/
 defaults write com.apple.terminal StringEncodings -array 4
 
 # Copy iterm Settings
-sudo cp -f ./iterm/com.googlecode.iterm2.plist ~/Library/Preferences/
+sudo cp -f ../iterm/com.googlecode.iterm2.plist ~/Library/Preferences/
 
 # Install Dracula theme for iTerm
-open -a iTerm ./iterm/Dracula.itermcolors
+open -a iTerm ../iterm/Dracula.itermcolors
 
 # Install custom bat config and theme
 mkdir ~/.config || true
-cp -rf ./iterm/bat ~/.config || true
+cp -rf ../iterm/bat ~/.config || true
 bat cache --build
 
 # Install lessfilter for better preview
-cp -f .lessfilter ~/
+cp -f ../.lessfilter ~/
 
 # Misc rc files
-cp -f .screenrc ~/
-cp -f .wgetrc ~/
+cp -f ../.screenrc ~/
+cp -f ../.wgetrc ~/
