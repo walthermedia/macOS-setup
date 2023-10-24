@@ -21,6 +21,10 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+# Install font
+brew tap homebrew/cask-fonts
+brew install --cask font-roboto-mono-nerd-font 
+
 brew bundle --file=~/macos-setup/Brewfile
 
 # Remove outdated versions from the cellar.
