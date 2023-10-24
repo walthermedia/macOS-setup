@@ -28,7 +28,6 @@ brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 cask "appcleaner"
-cask "bitwarden"
 cask "blockblock"
 cask "brave-browser"
 cask "cardhop"
@@ -62,7 +61,6 @@ mas "Pure Paste", id: 1611378436
 mas "Slack", id: 803453959
 mas "Speediness", id: 1596706466
 mas "Todoist", id: 585829637
-mas "Xcode", id: 497799835
 vscode "moocfi.test-my-code"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
