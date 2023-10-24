@@ -88,9 +88,20 @@ plugins=(
 	zsh-completions
 )
 
+
+source /opt/homebrew/opt/git-extras/share/git-extras/git-extras-completion.zsh
+
 fpath=(/opt/homebrew/opt/curl/share/zsh/site-functions/ $fpath)
 
 source $ZSH/oh-my-zsh.sh
+
+
+if type brew &>/dev/null; then
+    FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+    autoload -Uz compinit
+    compinit
+ fi
 
 zstyle ':autocomplete:*' min-input 1  # characters (int)
 
