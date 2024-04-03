@@ -12,7 +12,6 @@ sudo scutil --set LocalHostName "${COMPUTER_NAME}"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "${COMPUTER_NAME}"
 
 osascript -e 'tell app "System Events" to tell appearance preferences to set dark mode to not dark mode'
-wget 'https://basicappleguy.com/s/RanchoNight_6K_Dyn.heic'
 
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
